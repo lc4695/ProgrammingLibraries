@@ -9,6 +9,9 @@ This document lists some different, certain purposes of Python and R libraries.
 
 ### [Pandas Profiling](https://github.com/ydataai/pandas-profiling)
 
+```
+!pip install https://github.com/pandas-profiling/pandas-profiling/archive/master.zip
+```
 
 ### [Sweetviz](https://github.com/fbdesignpro/sweetviz)
 
@@ -18,4 +21,4 @@ This document lists some different, certain purposes of Python and R libraries.
 
 ## Data manipulation
 
-## R
+# R
