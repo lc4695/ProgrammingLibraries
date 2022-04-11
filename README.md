@@ -3,12 +3,12 @@
 This document lists some different, certain purposes of Python and R libraries.  
 
 
-## Python
-### EDA
-#### Pandas Profiling
+# Python
+## EDA
+### Pandas Profiling
 
-#### Sweetviz
+### Sweetviz
 
-#### Autoviz
+### Autoviz
 
-#### D-Tale
+### D-Tale
