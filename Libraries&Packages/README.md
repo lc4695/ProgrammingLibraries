@@ -2,8 +2,7 @@
 
 This document lists some different, certain purposes of Python and R tools.  
 
-
-# Python Libraries
+# Python Libraries 
 
 ## EDA
 
@@ -14,15 +13,19 @@ This document lists some different, certain purposes of Python and R tools.
 ```
 
 ### [Sweetviz](https://github.com/fbdesignpro/sweetviz)
-
 ### [Autoviz](https://github.com/AutoViML/AutoViz)
-
 ### [Skimpy](https://github.com/aeturrell/skimpy)
-
 ### ~~[D-Tale](https://github.com/man-group/dtale)~~
 Issue to be fixed
 
-## Data manipulation
+## Data 
+## [Pandas](https://github.com/pandas-dev/pandas)
+## [Numpy](https://github.com/numpy/numpy)
+
+
+## Data Visualization
+### [Seaborn](https://github.com/mwaskom/seaborn)
+### [matplotlib](https://github.com/matplotlib/matplotlib)
 
 # R packages
 
