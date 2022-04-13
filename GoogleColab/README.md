@@ -4,3 +4,10 @@
 from google.colab import data_table
 data_table.DataTable(df, include_index=False, num_rows_per_page=10)
 ```
+
+### Mount Google Drive
+[Source](https://colab.research.google.com/notebooks/io.ipynb#scrollTo=RWSJpsyKqHjH)
+```
+from google.colab import drive
+drive.mount('/content/drive')
+```
