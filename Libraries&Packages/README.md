@@ -18,7 +18,7 @@ This document lists some different, certain purposes of Python and R tools.
 ### ~~[D-Tale](https://github.com/man-group/dtale)~~
 Issue to be fixed
 
-## Data 
+## Data manipulation
 ## [Pandas](https://github.com/pandas-dev/pandas)
 ## [Numpy](https://github.com/numpy/numpy)
 
