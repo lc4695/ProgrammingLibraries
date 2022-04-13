@@ -1,9 +1,9 @@
-## Programming Libraries
+## Programming Tools
 
-This document lists some different, certain purposes of Python and R libraries.  
+This document lists some different, certain purposes of Python and R tools.  
 
 
-# Python
+# Python Libraries
 
 ## EDA
 
@@ -24,4 +24,8 @@ Issue to be fixed
 
 ## Data manipulation
 
-# R
+# R packages
+
+## EDA
+
+### [DataExplorer](https://github.com/boxuancui/DataExplorer)
