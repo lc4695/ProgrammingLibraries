@@ -2,34 +2,35 @@
 
 This document lists some different, certain purposes of Python and R tools.  
 
-# Python Libraries 
+## Python Libraries 
 
-## EDA
+### EDA
 
-### [Pandas Profiling](https://github.com/ydataai/pandas-profiling)
+#### [Pandas Profiling](https://github.com/ydataai/pandas-profiling)
 
 ```
 !pip install https://github.com/pandas-profiling/pandas-profiling/archive/master.zip
 ```
 
-### [Sweetviz](https://github.com/fbdesignpro/sweetviz)
-### [Autoviz](https://github.com/AutoViML/AutoViz)
-### [Skimpy](https://github.com/aeturrell/skimpy)
-### ~~[D-Tale](https://github.com/man-group/dtale)~~
+#### [Sweetviz](https://github.com/fbdesignpro/sweetviz)
+#### [Autoviz](https://github.com/AutoViML/AutoViz)
+#### [Skimpy](https://github.com/aeturrell/skimpy)
+#### ~~[D-Tale](https://github.com/man-group/dtale)~~
 Issue to be fixed
 
-## Data manipulation
-## [Pandas](https://github.com/pandas-dev/pandas)
-## [Numpy](https://github.com/numpy/numpy)
+### Data manipulation
+#### [Pandas](https://github.com/pandas-dev/pandas)
+#### [Numpy](https://github.com/numpy/numpy)
 
 
-## Data Visualization
-### [Seaborn](https://github.com/mwaskom/seaborn)
-### [matplotlib](https://github.com/matplotlib/matplotlib)
+### Data Visualization
+#### [Seaborn](https://github.com/mwaskom/seaborn)
+#### [matplotlib](https://github.com/matplotlib/matplotlib)
 
-# R packages
+## R packages
 
-## EDA
+### EDA
 
-### [DataExplorer](https://github.com/boxuancui/DataExplorer)
+#### [DataExplorer](https://github.com/boxuancui/DataExplorer)
+#### [Skimr](https://github.com/ropensci/skimr)
 
