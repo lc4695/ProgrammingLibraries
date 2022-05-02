@@ -33,4 +33,4 @@ Issue to be fixed
 
 #### [DataExplorer](https://github.com/boxuancui/DataExplorer)
 #### [Skimr](https://github.com/ropensci/skimr)
-
+#### [Hmisc](https://github.com/harrelfe/Hmisc)
