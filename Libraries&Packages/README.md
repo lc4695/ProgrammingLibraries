@@ -38,3 +38,4 @@ Issue to be fixed
 ### Data Visualization
 #### [ggplot2](https://github.com/tidyverse/ggplot2)
 #### [ggtheme](https://github.com/jrnold/ggthemes)
+#### [ggblanket](https://github.com/davidhodge931/ggblanket)
