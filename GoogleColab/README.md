@@ -1,13 +1,6 @@
+# Python & R issues in Google Colab
 
 ## Python
-
-### Data Table Display
-[Source](https://colab.research.google.com/notebooks/data_table.ipynb#scrollTo=JgBtx0xFFv_i)
-```
-from google.colab import data_table
-data_table.enable_dataframe_formatter()
-data_table.DataTable(df, include_index=False, num_rows_per_page=10)
-```
 
 ### Mount Google Drive
 [Source](https://colab.research.google.com/notebooks/io.ipynb#scrollTo=RWSJpsyKqHjH)
@@ -16,6 +9,13 @@ from google.colab import drive
 drive.mount('/content/drive')
 ```
 
+### Data Table Display
+[Source](https://colab.research.google.com/notebooks/data_table.ipynb#scrollTo=JgBtx0xFFv_i)
+```
+from google.colab import data_table
+data_table.enable_dataframe_formatter()
+data_table.DataTable(df, include_index=False, num_rows_per_page=10)
+```
 ## R
 ### Mount single file
 ```
@@ -27,7 +27,21 @@ system("ls", TRUE)
 # Change id
 2. system("gdown --id 12uRyLU-aAdInBtkVubhI4l3PmbYIo5aE")
 ```
+### "Non-zero exit Status" warning
+```
+system('sudo apt-get install r-cran-library_name', intern=TRUE)
+```
+### ggmap
+```
+system('sudo apt-get install r-cran-rcpp', intern=TRUE)
+install.packages("Rcpp")
+install.packages("plyr")
+install.packages("ggmap", dependencies = TRUE)
 
+library(ggmap)
+# API key: 
+register_google(key="")
+```
 ### Load RData
 ```
 load("df")
