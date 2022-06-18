@@ -1,7 +1,16 @@
-## Python Libraries & R packages
+# Python Libraries & R packages
 
 This document lists some different, certain purposes of Python and R tools.  
 
+- [Python Libraries](#python-libraries)
+  * [EDA](#eda)
+  * [Data manipulation](#data-manipulation)
+  * [Data Visualization](#data-visualization)
+- [R packages](#r-packages)
+  * [EDA](#eda-1)
+  * [Data Visualization](#data-visualization-1)
+
+---
 ## Python Libraries 
 
 ### EDA
