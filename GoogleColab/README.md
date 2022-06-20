@@ -31,7 +31,7 @@ system("ls", TRUE)
 ```
 system('sudo apt-get install r-cran-library_name', intern=TRUE)
 ```
-### ggmap
+### `ggmap` installation
 ```
 system('sudo apt-get install r-cran-rcpp', intern=TRUE)
 install.packages("Rcpp")
