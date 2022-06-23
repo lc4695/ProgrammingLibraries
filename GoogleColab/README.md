@@ -18,13 +18,14 @@ data_table.DataTable(df, include_index=False, num_rows_per_page=10)
 ```
 ## R
 ### Mount single file
+[Soruce](https://stackoverflow.com/questions/59746036/how-to-read-data-from-google-drive-using-r-in-colab)
 ```
 system("ls", TRUE)
-1. system("ls", TRUE)
+1. system("ls", TRUE) # optional
 ---
-# Find the file in google drive and copy the share link
+### Find the file in google drive and copy the share link
 # Link: https://drive.google.com/open?id=12uRyLU-aAdInBtkVubhI4l3PmbYIo5aE
-# Change id
+### Change id
 2. system("gdown --id 12uRyLU-aAdInBtkVubhI4l3PmbYIo5aE")
 ```
 ### "Non-zero exit Status" warning
