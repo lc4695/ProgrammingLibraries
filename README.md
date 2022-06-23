@@ -1,13 +1,17 @@
 # Table of contents
 - [Google Colab](#google-colab)
-- [Libraries_Packages](#libraries-packages)
+- [Libraries-Packages](#libraries-packages)
 - [Github](#github)
+- [R Tips](#r-tips)
 ---
 ### Google Colab
 Tips of Python & R in Google Colab [Link](https://github.com/lc4695/ProgrammingTools/tree/main/GoogleColab)
 
-### Libraries_Packages
+### Libraries-Packages
 Collection of useful Python libraries and R packages [Link](https://github.com/lc4695/ProgrammingTools/tree/main/Libraries%26Packages)
+
+### R Tips
+My own R tips [Link](https://github.com/lc4695/ProgrammingTools/tree/main/RTips)
 
 ### Github
 - [GitHub Wiki TOC generator](https://ecotrust-canada.github.io/markdown-toc/)
