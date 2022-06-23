@@ -46,4 +46,7 @@ register_google(key="")
 ```
 load("df")
 ```
-
+### Get a list of datasets in a particular package
+```
+data(package = "package_name")
+```
