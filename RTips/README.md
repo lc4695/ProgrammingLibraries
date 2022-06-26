@@ -10,3 +10,7 @@ load("df")
 ```
 data(package = "package_name")
 ```
+### Print version information about R, the OS and attached or loaded packages.
+```
+print(sessionInfo())
+```
