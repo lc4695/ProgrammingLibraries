@@ -44,3 +44,10 @@ library(ggmap)
 register_google(key="")
 ```
 
+### `sf` installation
+```
+remotes::install_github("r-quantities/units")
+install.packages("sf", dependencies = F)
+library(sf)
+```
+
