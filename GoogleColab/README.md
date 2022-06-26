@@ -4,9 +4,10 @@
   * [Data Table Display](#data-table-display)
 - [R](#r)
   * [Mount single file](#mount-single-file)
-  * ["Non-zero exit Status" warning](#-non-zero-exit-status--warning)
-  * [`ggmap` installation](#-ggmap--installation)
-  * [`sf` installation](#-sf--installation)
+  * [Non-zero exit Status warning](#non-zero-exit-status-warning)
+  * [ggmap installation](#ggmap-installation)
+  * [sf installation](#sf-installation)
+  * [raster installation](#raster-installation)
 ---
 
 
@@ -38,11 +39,11 @@ system("ls", TRUE)
 ### Change id
 2. system("gdown --id 12uRyLU-aAdInBtkVubhI4l3PmbYIo5aE")
 ```
-### "Non-zero exit Status" warning
+### Non-zero exit Status warning
 ```
 system('sudo apt-get install r-cran-library_name', intern=TRUE)
 ```
-### `ggmap` installation
+### ggmap installation
 ```
 system('sudo apt-get install r-cran-rcpp', intern=TRUE)
 install.packages("Rcpp")
@@ -54,10 +55,13 @@ library(ggmap)
 register_google(key="")
 ```
 
-### `sf` installation
+### sf installation
 ```
 remotes::install_github("r-quantities/units")
 install.packages("sf", dependencies = F)
 library(sf)
 ```
-
+### raster installation
+```
+install.packages('raster', repos='https://rspatial.r-universe.dev')
+```
