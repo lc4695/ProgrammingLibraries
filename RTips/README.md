@@ -14,3 +14,7 @@ data(package = "package_name")
 ```
 print(sessionInfo())
 ```
+### Specify width and height of plot
+```
+options(repr.plot.width=6, repr.plot.height=4)
+```
