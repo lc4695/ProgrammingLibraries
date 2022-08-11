@@ -18,3 +18,13 @@ print(sessionInfo())
 ```
 options(repr.plot.width=6, repr.plot.height=4)
 ```
+### Check if the package is installed
+
+```
+if(!require("tidyverse")){
+  # If the package is not in the system then it will be installed
+  install.packages("tidyverse", dependencies = TRUE)
+  # Load the package
+  library("tidyverse")
+}
+```
