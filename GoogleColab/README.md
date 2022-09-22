@@ -8,6 +8,7 @@
   * [ggmap installation](#ggmap-installation)
   * [sf installation](#sf-installation)
   * [raster installation](#raster-installation)
+  * [skimr installation](skimr-installation) 
 ---
 
 
@@ -65,3 +66,9 @@ library(sf)
 ```
 install.packages('raster', repos='https://rspatial.r-universe.dev')
 ```
+
+### skimr installation
+```
+devtools::install_github("ropensci/skimr", force = TRUE)
+```
+
