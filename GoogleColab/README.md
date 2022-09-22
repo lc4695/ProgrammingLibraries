@@ -8,7 +8,7 @@
   * [ggmap installation](#ggmap-installation)
   * [sf installation](#sf-installation)
   * [raster installation](#raster-installation)
-  * [skimr installation](skimr-installation) 
+  * [skimr installation](#skimr-installation) 
 ---
 
 
