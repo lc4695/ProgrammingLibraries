@@ -3,13 +3,13 @@
   * [Mount Google Drive](#mount-google-drive)
   * [Data Table Display](#data-table-display)
 - [R](#r)
-  * [Mount google drive](#mount-google-drive)
+  * [Mount Google Drive](#mount-google-drive-1)
   * [Mount single file](#mount-single-file)
   * [Non-zero exit Status warning](#non-zero-exit-status-warning)
   * [ggmap installation](#ggmap-installation)
   * [sf installation](#sf-installation)
   * [raster installation](#raster-installation)
-  * [skimr installation](#skimr-installation) 
+  * [skimr installation](#skimr-installation)
 ---
 
 
