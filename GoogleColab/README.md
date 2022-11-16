@@ -29,6 +29,23 @@ data_table.enable_dataframe_formatter()
 data_table.DataTable(df, include_index=False, num_rows_per_page=10)
 ```
 ## R
+
+### Mount Google Drive
+[Source](https://stackoverflow.com/questions/56679549/how-to-mount-google-drive-to-r-notebook-in-colab)
+```
+install.packages("googledrive")
+library("googledrive")
+
+if (file.exists("/usr/local/lib/python3.6/dist-packages/google/colab_ipython.py")){
+  install.packages("R.utils")
+  library("R.utils")
+  library("httr")
+  my_check <- function() {return(TRUE)}
+  reassignInPackage("is_interactive", pkgName = "httr", my_check)
+  options(rlang_interactive=TRUE)
+}           
+```
+
 ### Mount single file
 [Soruce](https://stackoverflow.com/questions/59746036/how-to-read-data-from-google-drive-using-r-in-colab)
 ```
