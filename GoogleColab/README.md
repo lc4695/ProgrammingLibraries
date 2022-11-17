@@ -3,7 +3,7 @@
   * [Mount Google Drive](#mount-google-drive)
   * [Data Table Display](#data-table-display)
 - [R](#r)
-  * [Mount Google Drive](#mount-google-drive-1)
+  * [Access Google Drive](#access-google-drive)
   * [Mount single file](#mount-single-file)
   * [Non-zero exit Status warning](#non-zero-exit-status-warning)
   * [ggmap installation](#ggmap-installation)
@@ -31,7 +31,7 @@ data_table.DataTable(df, include_index=False, num_rows_per_page=10)
 ```
 ## R
 
-### Mount Google Drive
+### Access Google Drive
 [Source](https://stackoverflow.com/questions/56679549/how-to-mount-google-drive-to-r-notebook-in-colab)
 ```
 install.packages("googledrive")
@@ -44,7 +44,9 @@ if (file.exists("/usr/local/lib/python3.6/dist-packages/google/colab_ipython.py"
   my_check <- function() {return(TRUE)}
   reassignInPackage("is_interactive", pkgName = "httr", my_check)
   options(rlang_interactive=TRUE)
-}           
+}
+
+drive_auth(use_oob = TRUE, cache = TRUE)
 ```
 
 ### Mount single file
