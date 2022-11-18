@@ -76,6 +76,8 @@ system("zip -r /content.zip  /content", TRUE)
 [Source](http://rfunction.com/archives/2432)
 ```
 dir.create(path) 
+
+list.files(path) # see all the files in the folder
 ```
 ### Library Installation
 
