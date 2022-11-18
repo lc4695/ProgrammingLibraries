@@ -6,10 +6,13 @@
   * [Access Google Drive](#access-google-drive)
   * [Mount single file](#mount-single-file)
   * [Non-zero exit Status warning](#non-zero-exit-status-warning)
-  * [ggmap installation](#ggmap-installation)
-  * [sf installation](#sf-installation)
-  * [raster installation](#raster-installation)
-  * [skimr installation](#skimr-installation)
+  * [Zip a folder](#zip-a-folder)
+  * [Create a new folder](#create-a-new-folder)
+  * [Library Installation](#library-installation)
+    + [ggmap installation](#ggmap-installation)
+    + [sf installation](#sf-installation)
+    + [raster installation](#raster-installation)
+    + [skimr installation](#skimr-installation)
 ---
 
 
@@ -64,7 +67,19 @@ system("ls", TRUE)
 ```
 system('sudo apt-get install r-cran-library_name', intern=TRUE)
 ```
-### ggmap installation
+### Zip a folder
+```
+system("zip -r /content.zip  /content", TRUE)
+```
+
+### Create a new folder
+[Source](http://rfunction.com/archives/2432)
+```
+dir.create(path) 
+```
+### Library Installation
+
+#### ggmap installation
 ```
 system('sudo apt-get install r-cran-rcpp', intern=TRUE)
 install.packages("Rcpp")
@@ -76,18 +91,18 @@ library(ggmap)
 register_google(key="")
 ```
 
-### sf installation
+#### sf installation
 ```
 remotes::install_github("r-quantities/units")
 install.packages("sf", dependencies = F)
 library(sf)
 ```
-### raster installation
+#### raster installation
 ```
 install.packages('raster', repos='https://rspatial.r-universe.dev')
 ```
 
-### skimr installation
+#### skimr installation
 ```
 devtools::install_github("ropensci/skimr", force = TRUE)
 ```
