@@ -30,6 +30,7 @@ Issue to be fixed
 ### Data manipulation
 #### [Pandas](https://github.com/pandas-dev/pandas)
 #### [Numpy](https://github.com/numpy/numpy)
+#### [PyGWalker](https://github.com/Kanaries/pygwalker)
 
 
 ### Data Visualization
