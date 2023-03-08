@@ -37,7 +37,7 @@ Issue to be fixed
 #### [Seaborn](https://github.com/mwaskom/seaborn)
 #### [matplotlib](https://github.com/matplotlib/matplotlib)
 
-## R packages
+## R Packages
 
 ### EDA
 
