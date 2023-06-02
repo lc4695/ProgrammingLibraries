@@ -2,6 +2,7 @@
 - [Python](#python)
   * [Mount Google Drive](#mount-google-drive)
   * [Data Table Display](#data-table-display)
+  * [Run SQL Query](#run-sql-query)
 - [R](#r)
   * [Access Google Drive](#access-google-drive)
   * [Mount single file](#mount-single-file)
@@ -32,6 +33,27 @@ from google.colab import data_table
 data_table.enable_dataframe_formatter()
 data_table.DataTable(df, include_index=False, num_rows_per_page=10)
 ```
+### Run SQL Query
+```
+from google.colab import drive
+drive.mount('/content/drive')
+
+import pandas as pd
+import sqlite3
+
+df = pd.read_csv('file_path')
+
+conn = sqlite3.connect('database.db')
+
+df.to_sql('df', conn, if_exists='replace')
+
+query = '''
+SELECT * FROM df;
+'''
+df_df = pd.read_sql_query(query, conn)
+print(df_df.head())
+```
+
 ## R
 
 ### Access Google Drive
