@@ -9,6 +9,7 @@ This document lists some different, certain purposes of Python and R tools.
 - [R packages](#r-packages)
   * [EDA](#eda-1)
   * [Data Visualization](#data-visualization-1)
+  * [Quality Control](#quality-control)
 
 ---
 ## Python Libraries 
@@ -49,3 +50,6 @@ Issue to be fixed
 #### [ggplot2](https://github.com/tidyverse/ggplot2)
 #### [ggtheme](https://github.com/jrnold/ggthemes)
 #### [ggblanket](https://github.com/davidhodge931/ggblanket)
+
+### Quality Control
+#### [ggQC](https://github.com/kenithgrey/ggQC)
