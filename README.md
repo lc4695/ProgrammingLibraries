@@ -12,7 +12,7 @@ Tips of Python & R in Google Colab [Link]( https://github.com/lc4695/Programming
 Collection of useful Python libraries and R packages [Link](https://github.com/lc4695/Programming_Tools/tree/main/Libraries-Packages)
 
 ### R Tips
-My own R tips [Link](https://github.com/lc4695/ProgrammingTools/tree/main/RTips)
+My own R tips [Link](https://github.com/lc4695/Programming_Tools/tree/main/R_Tips)
 
 ----
 ### Github
